@@ -16,7 +16,7 @@ const TenderCard = ({ heading, subheading, details }) => {
 
 const Home3 = () => {
   return (
-    <div className="container mx-auto p-4 max-w-7xl">
+    <div className="mx-auto p-4 max-w-7xl">
       <h2 className="text-2xl font-bold mb-4 text-gray-700">
         Latest Local Tenders, Government Tenders
       </h2>

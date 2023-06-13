@@ -21,7 +21,7 @@ const TenderCard = ({ heading, subheading }) => {
 const Home2 = () => {
   return (
     <>
-    <div className="container mx-auto p-4 max-w-7xl">
+    <div className=" mx-auto p-4 max-w-7xl">
       <h2 className="text-2xl font-bold mb-4 text-gray-700">
         Latest government tenders, online tenders, Public Tender, Bids and
         Tender
@@ -52,7 +52,7 @@ const Home2 = () => {
         <div className="flex items-center  ">
           <img
             className="h-[50px] w-[50px] rounded-lg object-cover"
-            src="https://electricalengineeringmagazine.co.uk/wp-content/uploads/32[50px]33/shutterstock_1709519638.500x0-is.jpg"
+            src="https://images.unsplash.com/photo-1563068261-13ebbdf16aa3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
             alt="Logo"
           />
           <TenderCard
@@ -63,7 +63,7 @@ const Home2 = () => {
         <div className="flex items-center  ">
           <img
             className="h-[50px] w-[50px] rounded-lg object-cover"
-            src="https://www.tendersinfo.com/blogs/wp-content/uploads/2017/04/Software-tenders-1024x682.jpeg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Power_pole.jpg/800px-Power_pole.jpg"
             alt="Logo"
           />
           <TenderCard
@@ -74,7 +74,7 @@ const Home2 = () => {
         <div className="flex items-center  ">
           <img
             className="h-[50px] w-[50px] rounded-lg object-cover"
-            src="https://i.pinimg.com/564x/f0/e7/4e/f0e74e703bae19a[50px]363860252733b41.jpg"
+            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
             alt="Logo"
           />
           <TenderCard
@@ -96,7 +96,7 @@ const Home2 = () => {
         <div className="flex items-center  ">
           <img
             className="h-[50px] w-[50px] rounded-lg object-cover"
-            src="https://economictimes.indiatimes.com/thumb/msid-65916504,width-[50px]00,height-900,resizemode-4,imgsize-309372/how-the-humble-office-canteen-is-witnessing-a-gastronomic-makeover.jpg?from=mdr"
+            src="https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=910&q=80"
             alt="Logo"
           />
           <TenderCard
@@ -107,7 +107,7 @@ const Home2 = () => {
         <div className="flex items-center  ">
           <img
             className="h-[50px] w-[50px] rounded-lg object-cover"
-            src="https://images.citizenmatters.in/wp-content/uploads/sites/2/2021/02/17[50px]3502/Hyderbad-SolarPanelling-Courtesy-Radhika-Choudary1-Feb-20215.jpeg?strip=all&lossy=1&resize=1024%2C438&ssl=1"
+            src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=858&q=80"
             alt="Logo"
           />
           <TenderCard
