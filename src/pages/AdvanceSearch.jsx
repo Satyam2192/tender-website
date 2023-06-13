@@ -2,7 +2,8 @@ import React from 'react'
 
 const AdvanceSearch = () => {
   return (
-    <div>AdvanceSearch</div>
+    <div>
+    </div>
   )
 }
 
