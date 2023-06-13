@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="bg-gradient-to-r from-purple-500 to-pink-500 min-h-screen">
+    <div className="bg-white min-h-screen">
       <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center mt-8 sm:mt-12">
           <div className="flex items-center rounded-lg bg-white w-full max-w-md px-4 py-2 mt-5 shadow-lg">
@@ -29,7 +29,7 @@ const HomePage = () => {
         </div>
 
         <div className="flex justify-center mt-8">
-          <h1 className="text-3xl font-bold text-white mt-2">Tenders Categories</h1>
+          <h1 className="text-3xl font-bold  mt-2">Tenders Categories</h1>
           <div className="ml-4 grid gap-4 sm:flex">
             <button className="bg-purple-500 hover:bg-purple-600 text-white py-3 px-8 rounded-lg shadow-lg transition-colors">
               Region
@@ -47,7 +47,7 @@ const HomePage = () => {
         </div>
         
         <div className="flex justify-center mt-8">
-          <h1 className="text-3xl font-bold text-white mt-2">Tenders By Keyword</h1>
+          <h1 className="text-3xl font-bold mt-2">Tenders By Keyword</h1>
           <div className="ml-4 grid gap-4 sm:flex">
             <button className="bg-purple-500 hover:bg-purple-600 text-white py-3 px-8 rounded-lg shadow-lg transition-colors">
               Financiers
