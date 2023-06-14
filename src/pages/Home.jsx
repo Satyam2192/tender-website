@@ -182,7 +182,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex justify-end">
-                <button className=" ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5] hover:bg-white hover:text-blue-400 py-2 px-2 rounded-lg shadow-lg transition-colors">
+                <button className="mb-2 ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5] hover:bg-white hover:text-blue-400 py-2 px-2 rounded-lg shadow-lg transition-colors">
                   Advance search
                 </button>
               </div>
