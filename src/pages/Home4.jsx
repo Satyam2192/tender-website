@@ -85,11 +85,11 @@ const Home4 = () => {
   ];
 
   return (
-    <div className="container mx-auto p-4 max-w-7xl  ">
-      <h2 className="text-2xl font-bold mb-4 text-[#4a4a68] ">Browse Tenders</h2>
+    <div className=" mx-auto py-4 max-w-7xl">
+      <h2 className="text-2xl font-bold mb-4 text-[#4a4a68]">Browse Tenders</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8  ">
-        <div className="flex justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="flex ">
           <RegionItem
             heading="REGIONS"
             items={regions.map((region) => region.heading)}
