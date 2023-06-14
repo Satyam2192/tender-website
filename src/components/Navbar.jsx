@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white md:shadow-lg">
+    <nav className="bg-white ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 ">
           <div className="flex-shrink-0">
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/"
-                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
                   >
                     Home
                   </Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/about"
-                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
                   >
                     About
                   </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/tenders"
-                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
                   >
                     Tenders
                   </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/login"
-                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
                   >
                     Login
                   </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
               <div className="flex justify-end">
                 <Link
                   to="/"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
                   onClick={toggleMenu}
                 >
                   Home
@@ -87,7 +87,7 @@ const Navbar = () => {
               <div className="flex justify-end">
                 <Link
                   to="/about"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
                   onClick={toggleMenu}
                 >
                   About
@@ -96,7 +96,7 @@ const Navbar = () => {
               <div className="flex justify-end">
                 <Link
                   to="/tenders"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
                   onClick={toggleMenu}
                 >
                   Tenders
@@ -105,7 +105,7 @@ const Navbar = () => {
               <div className="flex justify-end">
                 <Link
                   to="/login"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md md:shadow-lg w-[90px]"
+                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
                   onClick={toggleMenu}
                 >
                   Login
