@@ -6,9 +6,9 @@ import Home4 from "./Home4";
 const HomePage = () => {
   return (
     <>
-      <div className="p-4 mx-7xl">
-        <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center">
-          <div className="w-full md:w-1/4">
+      <div className="p-4 ">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center">
+          <div className="w-full md:w-1/4 ">
             <ul className="space-y-2">
               <h1 className="text-2xl font-bold mb-4 text-gray-700">
                 Tenders Categories
