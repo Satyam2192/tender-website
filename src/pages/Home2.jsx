@@ -122,7 +122,7 @@ const Home2 = () => {
           </div>
         </div>
         <div className="flex justify-center m-10">
-          <button className="bg-blue-400 p-3 rounded-lg text-white hover:text-blue-400 hover:bg-white border-[2px]  hover:border-blue-400">
+          <button className="bg-blue-400 p-3 rounded-lg text-white   border-[2px]  hover:border-blue-400">
             View More Tenders Categories
           </button>
         </div>

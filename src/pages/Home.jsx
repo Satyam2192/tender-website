@@ -176,13 +176,13 @@ const HomePage = () => {
                     placeholder="Enter your keyword to search for tenders"
                     className="w-full md:w-2/3 lg:w-full py-2 px-4 border-2 border-[#63ACE5] rounded-l focus:outline-none focus:border-[#63ACE5] bg-transparent text-gray-800 placeholder-gray-400"
                   />
-                  <button className=" ml-0 md:mt-0 bg-[#63ACE5] hover:bg-white hover:text-black text-black py-2 md:py-[8px] px-2 md:px-[50px] shadow-lg transition-colors border-[2px] border-[#63ACE5]">
+                  <button className=" ml-0 md:mt-0 bg-[#63ACE5]  hover:text-black text-black py-2 md:py-[8px] px-2 md:px-[50px] shadow-lg transition-colors border-[2px] border-[#63ACE5]">
                     Search
                   </button>
                 </div>
               </div>
               <div className="flex justify-end">
-                <button className="mb-2 ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5] hover:bg-white hover:text-blue-400 py-2 px-2 rounded-lg shadow-lg transition-colors">
+                <button className="mb-2 ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5]  hover:text-blue-400 py-2 px-2 rounded-lg shadow-lg transition-colors border-[2px]">
                   Advance search
                 </button>
               </div>
@@ -215,10 +215,10 @@ const HomePage = () => {
               </div>
 
               <div className="flex justify-center mt-5 md:mt-8">
-                <button className="bg-[#63ACE5] hover:bg-white hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
-                  Gem Registration New
+                <button className="bg-[#63ACE5]  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
+                  Gem Registration
                 </button>
-                <button className="ml-4 bg-[#63ACE5] hover:bg-white hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
+                <button className="ml-4 bg-[#63ACE5]  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
                   Tenders Database
                 </button>
               </div>
