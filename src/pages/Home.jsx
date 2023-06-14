@@ -83,28 +83,18 @@ const HomePage = () => {
                   <input
                     type="text"
                     placeholder="Enter your keyword to search for tenders"
-                    className="w-full md:w-2/3 lg:w-3/4 py-2 px-4 border-2 border-[#63ACE5] rounded-l focus:outline-none focus:border-[#63ACE5] bg-transparent text-gray-800 placeholder-gray-500"
+                    className="w-full md:w-2/3 lg:w-full py-2 px-4 border-2 border-[#63ACE5] rounded-l focus:outline-none focus:border-[#63ACE5] bg-transparent text-gray-800 placeholder-gray-500"
                   />
-                  <button className="bg-[#63ACE5] text-white py-2 px-6 rounded-r flex items-center">
-                    <svg
-                      alt="Search Icon"
-                      className="w-4 h-4 mr-2"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M7.5 14a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13zM18 18l-3.5-3.5"
-                      />
-                    </svg>
-                    Search
-                  </button>
+                  <button className=" ml-0 mt- md:mt-0 bg-[#63ACE5] hover:bg-white hover:text-black text-white py-[8px] px-[50px]  shadow-lg transition-colors border-[2px] border-[#63ACE5]">
+                  Search
+                </button>
                 </div>
-                <button className="ml-0 mt-4 md:ml-4 md:mt-0 bg-[#63ACE5] hover:bg-white hover:text-black text-white py-3 px-8 rounded-lg shadow-lg transition-colors">
+              </div>
+              <div className="flex justify-end">
+                <button className=" ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5] hover:bg-white hover:text-blue-500 py-2 px-2 rounded-lg shadow-lg transition-colors">
                   Advance search
                 </button>
               </div>
-
               <div className="flex flex-wrap justify-center mt-8">
                 <div className="p-10 mb-8 w-full sm:w-1/2 md:w-1/2 lg:w-1/2">
                   <div className="bg-white rounded-lg py-6 px-4 text-center shadow-lg">
@@ -118,7 +108,7 @@ const HomePage = () => {
                     <p className="text-gray-700">Years Of Experience</p>
                   </div>
                 </div>
-                
+
                 <div className="p-10 mb-8 w-full sm:w-1/2 md:w-1/2 lg:w-1/2">
                   <div className="bg-white rounded-lg py-6 px-4 text-center shadow-lg">
                     <p className="text-4xl font-bold">240</p>
