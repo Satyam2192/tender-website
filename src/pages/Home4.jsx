@@ -24,12 +24,31 @@ const Home4 = () => {
   const regions = [
     {
       heading: "Africa Tenders",
-      items: ["Western Africa Tenders", "Central Africa Tenders", "Eastern Africa Tenders"],
+      items: [
+        "Western Africa Tenders",
+        "Central Africa Tenders",
+        "Eastern Africa Tenders",
+      ],
     },
     {
       heading: "Asia Tenders",
-      items: ["Central Asia Tenders", "Eastern Asia Tenders", "Southern Asia Tenders"],
+      items: [
+        "Central Asia Tenders",
+        "Eastern Asia Tenders",
+        "Southern Asia Tenders",
+      ],
     },
+  ];
+
+  const logos = [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/125px-Flag_of_Australia_%28converted%29.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/800px-Flag_of_Austria.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1280px-Flag_of_Bahrain.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/800px-Flag_of_Belgium.svg.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1280px-Flag_of_Canada_%28Pantone%29.svg.png",
   ];
 
   const countries = [
@@ -66,23 +85,38 @@ const Home4 = () => {
   ];
 
   return (
-    <div className="container mx-auto p-4 max-w-7xl">
-      <h2 className="text-2xl font-bold mb-4 text-[#4a4a68]">Browse Tenders</h2>
+    <div className="container mx-auto p-4 max-w-7xl  ">
+      <h2 className="text-2xl font-bold mb-4 text-[#4a4a68] ">Browse Tenders</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div>
-          <RegionItem heading="REGIONS" items={regions.map((region) => region.heading)} />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8  ">
+        <div className="flex justify-center">
+          <RegionItem
+            heading="REGIONS"
+            items={regions.map((region) => region.heading)}
+          />
         </div>
 
-        <div>
-          <RegionItem heading="COUNTRIES" items={countries} />
+        <div className="flex justify-center">
+          <div className="mt-[50px]">
+            {logos.map((logo, index) => (
+              <img
+                key={index}
+                src={logo}
+                alt={`Logo ${index + 1}`}
+                className="w-6 h-auto mb-[16.5px] mr-2"
+              />
+            ))}
+          </div>
+          <div>
+            <RegionItem heading="COUNTRIES" items={countries} />
+          </div>
         </div>
 
-        <div>
+        <div className="flex justify-center">
           <RegionItem heading="GEO-POLITICAL" items={geoPolitical} />
         </div>
 
-        <div>
+        <div className="flex justify-center">
           <RegionItem heading="FUNDING AGENCIES" items={fundingAgencies} />
         </div>
       </div>
