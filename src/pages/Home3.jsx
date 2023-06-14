@@ -2,7 +2,7 @@ import React from "react";
 
 const TenderCard = ({ heading, subheading, details }) => {
   return (
-    <div className="mx-auto bg-white overflow-hidden rounded-lg shadow-lg">
+    <div className="mx-auto bg-white overflow-hidden border-[2px] rounded-lg shadow-lg">
       <div className="p-8">
         <div className="uppercase tracking-wide text-xs text-blue-500">
           {heading}
@@ -18,7 +18,13 @@ const Home3 = () => {
   return (
     <div className="mx-auto p-4 max-w-7xl">
       <h2 className="text-2xl font-bold mb-4 text-gray-700">
-        Latest Local Tenders, Government Tenders
+        <span
+          className="
+  border-b-4 border-[#63ACE5]"
+        >
+          Latest
+        </span>{" "}
+        Local Tenders, Government Tenders
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <TenderCard
@@ -41,16 +47,19 @@ Brass Screws of Size 20 Mm (Quantity Required: 2000 Nos)"
         />
       </div>
       <div className="text-center mt-8">
-        <a
-          href="#"
-          className="text-blue-500 font-medium hover:underline"
-        >
+        <a href="#" className="text-blue-500 font-medium hover:underline">
           View More Local Tenders
         </a>
       </div>
 
       <h2 className="text-2xl font-bold mt-12 mb-4 text-gray-700">
-        Latest Global Tenders, Government Tenders
+        <span
+          className="
+  border-b-4 border-[#63ACE5]"
+        >
+          Latest
+        </span>{" "}
+        Global Tenders, Government Tenders
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <TenderCard
@@ -73,10 +82,7 @@ Insumos Y Equipamiento Para Laboratorios Del Ministerio De Salud"
         />
       </div>
       <div className="text-center mt-8">
-        <a
-          href="#"
-          className="text-blue-500 font-medium hover:underline"
-        >
+        <a href="#" className="text-blue-500 font-medium hover:underline">
           View More Global Tenders
         </a>
       </div>

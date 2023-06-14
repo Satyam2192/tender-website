@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const RegionItem = ({ heading, items }) => {
   return (
-    <div className="mb-8">
-      <h3 className="text-lg font-bold mb-4">{heading}</h3>
+    <div className="pb-8">
+      <h3 className="text-lg font-bold pb-4">{heading}</h3>
       <ul>
         {items.map((item, index) => (
           <li key={index} className="text-gray-600 mb-2">
@@ -11,8 +11,29 @@ const RegionItem = ({ heading, items }) => {
           </li>
         ))}
       </ul>
-      <div className="text-blue-500 font-medium mt-2">
-        <a href="#" className="hover:underline">
+      <div className=" font-medium mt-2">
+        <a href="#" className="text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+          View More
+        </a>
+      </div>
+    </div>
+  );
+};
+
+const RegionItem2 = ({ heading, subhed, items }) => {
+  return (
+    <div className="mb-2">
+      <h3 className="text-lg font-bold mb-3">{heading}</h3>
+      <h1 className="mb-3">{subhed}</h1>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index} className="text-gray-600 mb-2">
+            {item}
+          </li>
+        ))}
+      </ul>
+      <div className="font-medium mt-2">
+        <a href="#" className="text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
           View More
         </a>
       </div>
@@ -22,22 +43,15 @@ const RegionItem = ({ heading, items }) => {
 
 const Home4 = () => {
   const regions = [
-    {
-      heading: "Africa Tenders",
-      items: [
-        "Western Africa Tenders",
-        "Central Africa Tenders",
-        "Eastern Africa Tenders",
-      ],
-    },
-    {
-      heading: "Asia Tenders",
-      items: [
-        "Central Asia Tenders",
-        "Eastern Asia Tenders",
-        "Southern Asia Tenders",
-      ],
-    },
+    "Western Africa Tenders",
+    "Central Africa Tenders",
+    "Eastern Africa Tenders",
+  ];
+
+  const regions1 = [
+    "Central Asia Tenders",
+    "Eastern Asia Tenders",
+    "Southern Asia Tenders",
   ];
 
   const logos = [
@@ -84,19 +98,34 @@ const Home4 = () => {
     "WHO Tenders",
   ];
 
+  const [showContent, setShowContent] = useState(true);
+
+  const handleToggleContent = () => {
+    setShowContent(!showContent);
+  };
+
   return (
-    <div className=" mx-auto py-4 max-w-7xl">
-      <h2 className="text-2xl font-bold mb-4 text-[#4a4a68]">Browse Tenders</h2>
+    <div className="py-4 max-w-7xl mx-6 sm:mx-auto">
+      <h2 className="text-2xl font-bold mb-8 text-[#4a4a68]  ">
+        <span className="border-b-4 border-[#63ACE5]">Browse</span> Tenders
+      </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-        <div className="flex ">
-          <RegionItem
-            heading="REGIONS"
-            items={regions.map((region) => region.heading)}
-          />
+        <div className="hidden md:flex justify-center flex-col">
+          <div>
+            <RegionItem2
+              heading="REGIONS"
+              subhed="Africa Tenders"
+              items={regions}
+            />
+          </div>
+          <div>
+            <h1>Asia Tenders</h1>
+            <RegionItem2 heading="" items={regions1} />
+          </div>
         </div>
 
-        <div className="flex justify-center">
+        <div className="hidden md:flex">
           <div className="mt-[50px]">
             {logos.map((logo, index) => (
               <img
@@ -112,12 +141,40 @@ const Home4 = () => {
           </div>
         </div>
 
-        <div className="flex justify-center">
+        <div className="hidden md:flex">
           <RegionItem heading="GEO-POLITICAL" items={geoPolitical} />
         </div>
 
-        <div className="flex justify-center">
+        <div className="hidden md:flex">
           <RegionItem heading="FUNDING AGENCIES" items={fundingAgencies} />
+        </div>
+      </div>
+      <div className="sm:hidden ">
+        <div className="sm:hidden grid grid-cols-2">
+          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+            REGIONS
+          </button>
+          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+            COUNTRIES
+          </button>
+          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+            GEO-POLITICAL
+          </button>
+          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+            AGENCIES
+          </button>
+          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+            III SECTORS
+          </button>
+          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+            INDIAN STATES
+          </button>
+          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+            INDIAN CITIES
+          </button>
+          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+            PURCHASERS
+          </button>
         </div>
       </div>
     </div>

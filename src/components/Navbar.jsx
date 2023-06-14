@@ -50,7 +50,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/login"
-                    className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
+                    className="bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-white hover px-3 py-2 rounded-md  w-[90px]"
                   >
                     Login
                   </Link>
@@ -74,38 +74,38 @@ const Navbar = () => {
         </div>
         {menuOpen && (
           <div className="sm:hidden bg-[#63ace5]">
-            <div className="flex flex-col justify-center space-y-2 mt-2">
-              <div className="flex justify-end">
+            <div className="flex justify-center space-y-2 mt-2">
+              <div className="flex justify-end mx-[2px]">
                 <Link
                   to="/"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
+                  className="mt-2 hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg border-[2px]"
                   onClick={toggleMenu}
                 >
                   Home
                 </Link>
               </div>
-              <div className="flex justify-end">
+              <div className="flex justify-end mx-[2px]">
                 <Link
                   to="/about"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
+                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg border-[2px]"
                   onClick={toggleMenu}
                 >
                   About
                 </Link>
               </div>
-              <div className="flex justify-end">
+              <div className="flex justify-end mx-[2px]">
                 <Link
                   to="/tenders"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
+                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg border-[2px]"
                   onClick={toggleMenu}
                 >
                   Tenders
                 </Link>
               </div>
-              <div className="flex justify-end">
+              <div className="flex justify-end mx-[2px]">
                 <Link
                   to="/login"
-                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg"
+                  className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 px-3 py-2 rounded-md  w-[90px] shadow-lg border-[2px] bg-blue-300"
                   onClick={toggleMenu}
                 >
                   Login
