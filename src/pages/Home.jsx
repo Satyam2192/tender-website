@@ -2,6 +2,7 @@ import React from "react";
 import Home2 from "./Home2";
 import Home3 from "./Home3";
 import Home4 from "./Home4";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -182,9 +183,11 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex justify-end">
-                <button className="mb-2 ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5]  hover:text-blue-400 py-2 px-2 rounded-lg shadow-lg transition-colors border-[2px]">
-                  Advance search
-                </button>
+                <NavLink to="/advance-search">
+                  <button className="mb-2 ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5]  hover:text-blue-400 py-2 px-2 rounded-lg shadow-lg transition-colors border-[2px]">
+                    Advance search
+                  </button>
+                </NavLink>
               </div>
               <div className="flex flex-wrap justify-center ">
                 <div className="py-1 md:p-3 px-2 w-1/2 sm:w-1/2 md:w-1/2 lg:w-1/2">

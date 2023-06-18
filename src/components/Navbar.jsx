@@ -33,10 +33,10 @@ const Navbar = () => {
                 </div>
                 <div>
                   <Link
-                    to="/about"
+                    to="/contact"
                     className="hover:bg-[#63ace5] text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
                   >
-                    About
+                    Contact
                   </Link>
                 </div>
                 <div>
@@ -115,6 +115,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+      <hr />
     </nav>
   );
 };
