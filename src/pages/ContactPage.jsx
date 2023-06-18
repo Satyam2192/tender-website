@@ -120,7 +120,7 @@ const ContactUsPage = () => {
             </div>
             <button
               type="submit"
-              className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300 w-full"
+              className="bg-red-700 text-white py-2 px-4 rounded transition-colors duration-300 w-full"
             >
               Submit
             </button>
@@ -138,7 +138,7 @@ const ContactUsPage = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <AiOutlinePhone className="text-blue-500 text-3xl mb-2" />
+          <AiOutlinePhone className="text-red-700 text-3xl mb-2" />
           <span className="font-semibold">Phone</span>
           <p className="mt-2">Sales: 8875515555 </p>
           {/*<p>Support: 8875515555 </p>*/}
@@ -148,7 +148,7 @@ const ContactUsPage = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <RiMapPin2Line className="text-blue-500 text-3xl mb-2" />
+          <RiMapPin2Line className="text-red-700 text-3xl mb-2" />
           <span className="font-semibold">Address</span>
           <p className="mt-2">
             S-3, Vinayak Jaipur, fwefsdfrgh, loream dndnvnuidnvuwzxm,njd n
@@ -160,7 +160,7 @@ const ContactUsPage = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <AiOutlineMail className="text-blue-500 text-3xl mb-2" />
+          <AiOutlineMail className="text-red-700 text-3xl mb-2" />
           <span className="font-semibold">E-Mail</span>
           <p className="mt-2">Info@tender.com</p>
         </motion.div>
