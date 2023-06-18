@@ -14,7 +14,7 @@ const TenderCard = ({ title, deadline, location, referenceNo }) => {
       <p className="text-gray-600 mb-4">{location}</p>
       <p className="text-gray-600 mb-4">TOT Reference No.: {referenceNo}</p>
 
-      <button className="bg-red-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors">
+      <button className="bg-red-700 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors">
         View Details
       </button>
     </div>
