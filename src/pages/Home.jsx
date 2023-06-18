@@ -15,7 +15,7 @@ const HomePage = () => {
                 Tenders Categories
               </h1>
 
-              <li className=" pb-2 border-white border-2 hover:border-blue-400  mt-6">
+              <li className=" pb-2 border-white border-2 hover:border-red-700  mt-6">
                 <hr className="border-gray-400 pb-3 " />
                 <a
                   href="#"
@@ -30,7 +30,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400  hover:bg-blu">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700  hover:bg-blu">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -44,7 +44,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -58,7 +58,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -72,7 +72,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -86,7 +86,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -100,7 +100,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -114,7 +114,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -128,7 +128,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -142,7 +142,7 @@ const HomePage = () => {
                 </a>
               </li>
               <hr className="border-gray-400" />
-              <li className="p-1 py-2 border-white border-2 hover:border-blue-400 ">
+              <li className="p-1 py-2 border-white border-2 hover:border-red-700 ">
                 <a
                   href="#"
                   className="text-gray-600  flex items-center justify-between"
@@ -162,7 +162,7 @@ const HomePage = () => {
             <div className="py-3 md:py-12 sm:px-6 lg:px-8 ">
               <h1 className=" text-2xl md:text-4xl font-extrabold md:leading-normal">
                 {" "}
-                <span className="border-b-4 border-[#63ACE5]">
+                <span className="border-b-4 border-red-700">
                   Best eTender
                 </span>{" "}
                 Procurement Portal for RFP, Bids and etendering Opps{" "}
@@ -175,16 +175,16 @@ const HomePage = () => {
                   <input
                     type="text"
                     placeholder="Enter your keyword to search for tenders"
-                    className="w-full md:w-2/3 lg:w-full py-2 px-4 border-2 border-[#63ACE5] rounded-l focus:outline-none focus:border-[#63ACE5] bg-transparent text-gray-800 placeholder-gray-400"
+                    className="w-full md:w-2/3 lg:w-full py-2 px-4 border-2 border-red-700 rounded-l focus:outline-none focus:border-red-700 bg-transparent text-gray-800 placeholder-gray-400"
                   />
-                  <button className=" ml-0 md:mt-0 bg-[#63ACE5]  hover:text-black text-black py-2 md:py-[8px] px-2 md:px-[50px] shadow-lg transition-colors border-[2px] border-[#63ACE5]">
+                  <button className=" ml-0 md:mt-0 bg-red-700  hover:text-black text-black py-2 md:py-[8px] px-2 md:px-[50px] shadow-lg transition-colors border-[2px] border-red-700">
                     Search
                   </button>
                 </div>
               </div>
               <div className="flex justify-end">
                 <NavLink to="/advance-search">
-                  <button className="mb-2 ml-0 mr-3  md:ml-2 md:mt-0 text-[#63ACE5]  hover:text-blue-400 py-2 px-2 rounded-lg shadow-lg transition-colors border-[2px]">
+                  <button className="mb-2 ml-0 mr-3  md:ml-2 md:mt-0 text-red-700  hover:text-red-700 py-2 px-2 rounded-lg shadow-lg transition-colors border-[2px]">
                     Advance search
                   </button>
                 </NavLink>
@@ -218,10 +218,10 @@ const HomePage = () => {
               </div>
 
               <div className="flex justify-center mt-5 md:mt-8">
-                <button className="bg-[#63ACE5]  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
+                <button className="bg-red-700  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
                   Gem Registration
                 </button>
-                <button className="ml-4 bg-[#63ACE5]  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
+                <button className="ml-4 bg-red-700  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
                   Tenders Database
                 </button>
               </div>

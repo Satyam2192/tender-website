@@ -4,7 +4,7 @@ const TenderCard = ({ heading, subheading, details }) => {
   return (
     <div className="mx-auto bg-white overflow-hidden border-[2px] rounded-lg shadow-lg">
       <div className="p-8">
-        <div className="uppercase tracking-wide text-xs text-blue-500">
+        <div className="uppercase tracking-wide text-xs text-red-700">
           {heading}
         </div>
         <div className="text-sm text-gray-600 mt-2">{subheading}</div>
@@ -20,7 +20,7 @@ const Home3 = () => {
       <h2 className="text-2xl font-bold mb-4 text-gray-700">
         <span
           className="
-  border-b-4 border-[#63ACE5]"
+  border-b-4 border-red-700"
         >
           Latest
         </span>{" "}
@@ -47,7 +47,7 @@ Brass Screws of Size 20 Mm (Quantity Required: 2000 Nos)"
         />
       </div>
       <div className="text-center mt-8">
-        <a href="#" className="text-blue-500 font-medium hover:underline">
+        <a href="#" className="text-red-700 font-medium hover:underline">
           View More Local Tenders
         </a>
       </div>
@@ -55,7 +55,7 @@ Brass Screws of Size 20 Mm (Quantity Required: 2000 Nos)"
       <h2 className="text-2xl font-bold mt-12 mb-4 text-gray-700">
         <span
           className="
-  border-b-4 border-[#63ACE5]"
+  border-b-4 border-red-700"
         >
           Latest
         </span>{" "}
@@ -82,7 +82,7 @@ Insumos Y Equipamiento Para Laboratorios Del Ministerio De Salud"
         />
       </div>
       <div className="text-center mt-8">
-        <a href="#" className="text-blue-500 font-medium hover:underline">
+        <a href="#" className="text-red-700 font-medium hover:underline">
           View More Global Tenders
         </a>
       </div>

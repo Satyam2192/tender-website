@@ -107,7 +107,7 @@ const Home4 = () => {
   return (
     <div className="py-4 max-w-7xl mx-6 sm:mx-auto">
       <h2 className="text-2xl font-bold mb-8 text-[#4a4a68]  ">
-        <span className="border-b-4 border-[#63ACE5]">Browse</span> Tenders
+        <span className="border-b-4 border-red-700">Browse</span> Tenders
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -151,28 +151,28 @@ const Home4 = () => {
       </div>
       <div className="sm:hidden ">
         <div className="sm:hidden grid grid-cols-2">
-          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
             REGIONS
           </button>
-          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
             COUNTRIES
           </button>
-          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
             GEO-POLITICAL
           </button>
-          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
             AGENCIES
           </button>
-          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
             III SECTORS
           </button>
-          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
             INDIAN STATES
           </button>
-          <button className="bg-blue-500 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 mr-3 mb-5 rounded-lg text-[12px]">
             INDIAN CITIES
           </button>
-          <button className="bg-blue-500 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
+          <button className="bg-red-700 font-medium text-white p-3 ml-3 mb-5 rounded-lg text-[12px]">
             PURCHASERS
           </button>
         </div>

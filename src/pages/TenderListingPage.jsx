@@ -14,7 +14,7 @@ const TenderCard = ({ title, deadline, location, referenceNo }) => {
       <p className="text-gray-600 mb-4">{location}</p>
       <p className="text-gray-600 mb-4">TOT Reference No.: {referenceNo}</p>
 
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors">
+      <button className="bg-red-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors">
         View Details
       </button>
     </div>
@@ -106,7 +106,7 @@ const TenderListingPage = () => {
                 name="region"
                 value={selectedRegion}
                 onChange={handleRegionChange}
-                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
               >
                 <option value="">All Regions</option>
                 <option value="Western Africa">Western Africa Tenders</option>
@@ -129,7 +129,7 @@ const TenderListingPage = () => {
                 name="country"
                 value={selectedCountry}
                 onChange={handleCountryChange}
-                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
               >
                 <option value="">All Countries</option>
                 <option value="Afghanistan">Afghanistan Tenders</option>
@@ -158,7 +158,7 @@ const TenderListingPage = () => {
                 name="fundingAgency"
                 value={selectedFundingAgency}
                 onChange={handleFundingAgencyChange}
-                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
               >
                 <option value="">All Funding Agencies</option>
                 <option value="Abu Dhabi Fund for Development (ADFD)">
@@ -204,7 +204,7 @@ const TenderListingPage = () => {
                 name="product"
                 value={selectedProduct}
                 onChange={handleProductChange}
-                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
               >
                 <option value="">All Geo-Political Region</option>
                 <option value="Arab World">Arab World Tenders</option>
@@ -230,7 +230,7 @@ const TenderListingPage = () => {
                 name="product"
                 value={selectedProduct}
                 onChange={handleProductChange}
-                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full py-2 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
               >
                 <option value="">All Products</option>
                 <option value="Rehabilitation">Rehabilitation Tenders</option>

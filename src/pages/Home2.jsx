@@ -4,7 +4,7 @@ const TenderCard = ({ heading, subheading }) => {
   return (
     <div className="mx-2 bg-white overflow-hidden rounded-lg ">
       <div className="py-8">
-        <div className="uppercase tracking-wide text-xs text-blue-500">
+        <div className="uppercase tracking-wide text-xs text-red-700">
           {heading}
         </div>
         <a
@@ -25,7 +25,7 @@ const Home2 = () => {
         <h2 className="text-2xl font-bold mb-4 text-gray-700">
           <span
             className="
-  border-b-4 border-[#63ACE5]"
+  border-b-4 border-red-700"
           >
             Latest
           </span>{" "}
@@ -122,7 +122,7 @@ const Home2 = () => {
           </div>
         </div>
         <div className="flex justify-center m-10">
-          <button className="bg-blue-400 p-3 rounded-lg text-white   border-[2px]  hover:border-blue-400">
+          <button className="bg-red-700 p-3 rounded-lg text-white   border-[2px]  hover:border-black">
             View More Tenders Categories
           </button>
         </div>
