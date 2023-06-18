@@ -177,7 +177,7 @@ const HomePage = () => {
                     placeholder="Enter your keyword to search for tenders"
                     className="w-full md:w-2/3 lg:w-full py-2 px-4 border-2 border-red-700 rounded-l focus:outline-none focus:border-red-700 bg-transparent text-gray-800 placeholder-gray-400"
                   />
-                  <button className=" ml-0 md:mt-0 bg-red-700  hover:text-black text-black py-2 md:py-[8px] px-2 md:px-[50px] shadow-lg transition-colors border-[2px] border-red-700">
+                  <button className=" ml-0 md:mt-0 bg-red-700  hover:text-black text-white py-2 md:py-[8px] px-2 md:px-[50px] shadow-lg transition-colors border-[2px] border-red-700">
                     Search
                   </button>
                 </div>
@@ -218,10 +218,10 @@ const HomePage = () => {
               </div>
 
               <div className="flex justify-center mt-5 md:mt-8">
-                <button className="bg-red-700  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
+                <button className="bg-red-700  text-white py-3 px-8 rounded-lg shadow-lg transition-colors">
                   Gem Registration
                 </button>
-                <button className="ml-4 bg-red-700  hover:text-black text-black py-3 px-8 rounded-lg shadow-lg transition-colors">
+                <button className="ml-4 bg-red-700  text-white py-3 px-8 rounded-lg shadow-lg transition-colors">
                   Tenders Database
                 </button>
               </div>

@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/"
-                    className="hover:bg-red-700 text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
+                    className="hover:bg-red-700 text-lg font-medium transition-colors duration-300 text-gray-600 hover:text-white px-3 py-2 rounded-md  w-[90px]"
                   >
                     Home
                   </Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/contact"
-                    className="hover:bg-red-700 text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
+                    className="hover:bg-red-700 text-lg font-medium transition-colors duration-300 text-gray-600 hover:text-white px-3 py-2 rounded-md  w-[90px]"
                   >
                     Contact
                   </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/tenders"
-                    className="hover:bg-red-700 text-lg font-medium transition-colors duration-300 text-gray-600 hover px-3 py-2 rounded-md  w-[90px]"
+                    className="hover:bg-red-700 text-lg font-medium transition-colors duration-300 text-gray-600 hover:text-white px-3 py-2 rounded-md  w-[90px]"
                   >
                     Tenders
                   </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     to="/login"
-                    className="bg-red-700 text-lg font-medium transition-colors duration-300 text-white hover px-3 py-2 rounded-md  w-[90px]"
+                    className="bg-red-700 text-lg font-medium transition-colors duration-300 text-white hover:text-white px-3 py-2 rounded-md  w-[90px]"
                   >
                     Login
                   </Link>
