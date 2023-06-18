@@ -176,7 +176,7 @@ const FormPage = () => {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="px-6 py-2 bg-red-700 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-red-700"
+                className="px-6 py-2 bg-red-700 text-white rounded  focus:outline-none focus:ring-2 focus:ring-red-700"
               >
                 Search
               </button>
@@ -336,7 +336,7 @@ export default FormPage;
 //         <div className="flex justify-center">
 //           <button
 //             type="submit"
-//             className="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+//             className="bg-red-700 text-white px-4 py-2 rounded-md  focus:outline-none focus:bg-red-600"
 //           >
 //             Search
 //           </button>
