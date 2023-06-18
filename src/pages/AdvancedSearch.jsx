@@ -20,7 +20,7 @@ const FormPage = () => {
                   name="tkid"
                   type="text"
                   placeholder="Enter TKID"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 />
               </div>
 
@@ -33,7 +33,7 @@ const FormPage = () => {
                   name="keywords"
                   type="text"
                   placeholder="Enter Keywords"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 />
               </div>
 
@@ -46,7 +46,7 @@ const FormPage = () => {
                   name="tenderNo"
                   type="text"
                   placeholder="Enter Tender No"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 />
               </div>
 
@@ -57,7 +57,7 @@ const FormPage = () => {
                 <select
                   id="location"
                   name="location"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 >
                   <option value="">All Locations</option>
                   <option value="Andaman and Nicobar Islands">
@@ -111,7 +111,7 @@ const FormPage = () => {
                   name="organization"
                   type="text"
                   placeholder="Enter Organization"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 />
               </div>
 
@@ -122,7 +122,7 @@ const FormPage = () => {
                 <select
                   id="contractType"
                   name="contractType"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 >
                   <option value="">Please select Contract type</option>
                   <option value="Buy">Buy</option>
@@ -140,7 +140,7 @@ const FormPage = () => {
                   name="minValue"
                   type="text"
                   placeholder="Enter Tender Min Value"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 />
               </div>
 
@@ -153,7 +153,7 @@ const FormPage = () => {
                   name="maxValue"
                   type="text"
                   placeholder="Enter Tender Max Value"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 />
               </div>
 
@@ -164,7 +164,7 @@ const FormPage = () => {
                 <select
                   id="portal"
                   name="portal"
-                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-700"
                 >
                   <option value="">All Portals</option>
                   <option value="">GeM</option>
@@ -176,7 +176,7 @@ const FormPage = () => {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="px-6 py-2 bg-red-700 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-red-700"
               >
                 Search
               </button>
@@ -235,7 +235,7 @@ export default FormPage;
 //             type="text"
 //             id="totRefNo"
 //             placeholder="Tenders On Time Reference Number"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           />
 //         </div>
 
@@ -247,7 +247,7 @@ export default FormPage;
 //             type="text"
 //             id="docRefNo"
 //             placeholder="Document Reference Number"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           />
 //         </div>
 
@@ -257,7 +257,7 @@ export default FormPage;
 //           </label>
 //           <select
 //             id="regionOrCountry"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           >
 //             {options.regionOrCountry.map((option) => (
 //               <option key={option.value} value={option.value}>
@@ -273,7 +273,7 @@ export default FormPage;
 //           </label>
 //           <select
 //             id="sectors"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           >
 //             {options.sectors.map((option) => (
 //               <option key={option.value} value={option.value}>
@@ -291,7 +291,7 @@ export default FormPage;
 //             type="text"
 //             id="cpvNumber"
 //             placeholder="Enter Products or CPV Number"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           />
 //         </div>
 
@@ -301,7 +301,7 @@ export default FormPage;
 //           </label>
 //           <select
 //             id="financiers"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           >
 //             {options.financiers.map((option) => (
 //               <option key={option.value} value={option.value}>
@@ -318,7 +318,7 @@ export default FormPage;
 //           <input
 //             type="date"
 //             id="publishDate"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           />
 //         </div>
 
@@ -329,14 +329,14 @@ export default FormPage;
 //           <input
 //             type="date"
 //             id="closingDate"
-//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+//             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-red-700 focus:border-red-700"
 //           />
 //         </div>
 
 //         <div className="flex justify-center">
 //           <button
 //             type="submit"
-//             className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+//             className="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
 //           >
 //             Search
 //           </button>
